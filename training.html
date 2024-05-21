@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="zilla-slab-regular">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Construction Equipment Operators</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="responsive">
+    <header>
+        <Figure>
+            <img id="logo" src="img/JDLoader.svg" alt="JD Loader">
+        </Figure>
+        <h1>Construction Equipment Training</h1>
+    </header>
+
+    <nav>
+        <ul class="dropdown">
+            <li><a href="#">Menu</a>
+            <ul>
+                <li>
+                 <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="history.html">History</a>
+                </li>
+                <li>
+                    <a href="equipment.html">
+                        Equipment
+                    </a>
+                </li>
+                <li>
+                    <a href="training.html">
+                        Training
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+        <section>
+            <h2>Training</h2>
+            <p>
+                Proper training for all construction equipment is essential.
+                It important for the operator to learn how to operate in a safely
+                and proper manner. There is a lot to learn when it comes to such heavy construction equipment.
+                Preventive maintance checks and services is something an operator should do daily. It is a good
+                habit they teach in training to inspect your equipment before operation.
+            </p>
+            <h3>Training Facilities</h3>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.cicacademy.org/apps/pages/HEO">CICA Academy</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.iuoe.org/training/heavy-equipment-operator">International Union of Operating Engineers</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://oe3jatc.org/">OE3 JATC</a>
+                </li>
+            </ul>
+        </section>
+        <article>
+            <h2>Beginners Training</h2>
+            <p>
+                First thing during training is rules and regulations. During this time 
+                you will learn the do's and don't. You will go over safety training like 
+                <a target="_blank" href="https://www.dir.ca.gov/dosh/">Cal/OSHA</a>
+                to provide awareness of common job-related safety and health hazards.
+                you will also be informed of Personal Protective Equipment(PPE) that 
+                will be clothing, helmet, glasses, and any other equipment that can help 
+                prevent and protect the wearer from injury or chemical exposure. 
+
+            </p>
+            <h2>Hands On</h2>
+            <p>
+                During training the best way to learn is on the seat getting familiar
+                with the controls of the equipment. Through out your training you will learn
+                in class nomeclatures about the equipment along with other important book studies.
+                Then you will be going out to the training field. spending a few days to a week
+                getting hands on training with different machines.
+            </p>
+            <br>
+            <p>
+                You will do a proper inspection of the equipment prior to use.
+                That will get you in a good habit of inspecting it everyday along 
+                with familiarizing yourself with the location of the master power, coolant, oil stick,
+                hydraulic fluid, fan belt, and other parts of the machines essential for proper operation.
+            </p>
+        </article>
+        <aside>
+            <h3>Inspection Checklist Example</h3>
+            <fieldset>
+              <legend>General Information</legend>
+              <label for="operator-name">Operator Name</label>
+              <input type="text" name="operator-name" id="operator-name" required placeholder="Full Name">
+              <br>
+              <label for="equipment-type">Equipment Type</label>
+              <input type="text" name="equipment-type" id="equipment-type" required placeholder="Machine">
+              <br>
+              <label for="equipment-number">Equipment Number</label>
+              <input type="text" name="equipment-number" id="equipment-number" required placeholder="Number">
+              <br>
+              <label for="job-name">Job Name</label>
+              <input type="text" name="job-name" id="job-name" required placeholder="Job Name">
+            </fieldset>
+            <fieldset>
+                <legend>Outside</legend>
+                <div>
+                    <p>Fluid Leak</p>
+                    <input type="radio" name="leaks" id="leaks1" >
+                    <label for="leaks1">Yes</label>
+                    <input type="radio" name="leaks" id="leaks2" >
+                    <label for="leaks2">No</label>
+                    <br>
+                    <label for="leakDescription">Description</label>
+                    <textarea name="leakDescription" id="leakDescription"></textarea>
+                </div>
+                <div>
+                    <p>External Damage</p>
+                    <input type="radio" name="external" id="external1" >
+                    <label for="external1">Yes</label>
+                    <input type="radio" name="external" id="external2" >
+                    <label for="external2">No</label>
+                    <br>
+                    <label for="externalDescription">Description</label>
+                    <textarea name="externalDescription" id="externalDescription"></textarea>
+                </div>
+                <br>
+                <div> 
+                    <p>Tires/Track Damage</p>
+                    <input type="radio" name="tireTrack" id="tireTrack1">
+                    <label for="tireTrack1">Yes</label>
+                    <input type="radio" name="tireTrack" id="tireTrack2">
+                    <label for="tireTrack2">No</label>
+                    <br>
+                    <label for="tireTrackDes">Description</label>
+                    <textarea name="tireTrackDes" id="tireTrackDes"></textarea>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Engine</legend>
+                <div> 
+                    <p>Oil</p>
+                    <input type="radio" name="oil" id="oil1">
+                    <label for="oil1">Low</label>
+                    <input type="radio" name="oil" id="oil2">
+                    <label for="oil2">Full</label>
+                    <br>
+                    <label for="oildescription">Description</label>
+                    <textarea name="oildescription" id="oildescription"></textarea>
+                </div>
+                <div> 
+                    <p>Hydraulic Fluid</p>
+                    <input type="radio" name="hydraulic" id="hydraulic1">
+                    <label for="hydraulic1">Low</label>
+                    <input type="radio" name="hydraulic" id="hydraulic2">
+                    <label for="hydraulic2">Full</label>
+                    <br>
+                    <label for="hydraulicDes">Description</label>
+                    <textarea name="hydraulicDes" id="hydraulicDes"></textarea>
+                </div>
+                <div> 
+                    <p>Fan Belt</p>
+                    <input type="radio" name="belt" id="belt1">
+                    <label for="belt1">Good</label>
+                    <input type="radio" name="belt" id="belt2">
+                    <label for="belt2">Damaged</label>
+                    <br>
+                    <label for="beltDes">Description</label>
+                    <textarea name="beltDes" id="beltDes"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Inside</legend>
+                <div> 
+                    <p>Cabin</p>
+                    <input type="radio" name="cabin" id="cabin1">
+                    <label for="cabin1">Clean</label>
+                    <input type="radio" name="cabin" id="cabin2">
+                    <label for="cabin2">Dirty</label>
+                    <br>
+                    <label for="cabinDes">Description</label>
+                    <textarea name="cabinDes" id="cabinDes"></textarea>
+                </div>
+                <div> 
+                    <p>Gauges</p>
+                    <input type="radio" name="gauges" id="gauges1">
+                    <label for="gauges1">Operational</label>
+                    <input type="radio" name="gauges" id="gauges2">
+                    <label for="gauges2">Damaged</label>
+                    <br>
+                    <label for="gaugesDes">Description</label>
+                    <textarea name="gaugesDes" id="gaugesDes"></textarea>
+                </div>
+            </fieldset>
+        </aside>
+        <footer>
+            <p>
+                Contact Me at
+                <a href="mial.to:Hugo.r6pz@gmail.com">Hugo.r6pz@gmail.com</a>
+            </p>
+        </footer>
+    </body>
+</html>
